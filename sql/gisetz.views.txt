@@ -1,0 +1,12 @@
+# Functions from schema gisetz
+# last_service_abon
+odf_box2
+odf_vol
+test_cab_con
+test_muf_con
+test_mufcabvolc
+test_mufcabvold
+test_mufta
+# test_srid
+# v_cab_con_google
+#

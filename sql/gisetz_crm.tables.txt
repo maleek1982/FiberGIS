@@ -1,0 +1,3 @@
+# Tables from schema gisetz_repository
+journal_orders
+#

@@ -1,0 +1,11 @@
+# Data from tables schema gisetz_repository
+dev_mod
+dev_port
+dev_port_con
+dev_type
+gr
+s_volnagr
+w_cabcolor
+w_cabtype
+w_color
+#

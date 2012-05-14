@@ -1,0 +1,5 @@
+# Functions from schema gisetz
+aaa_mod()
+aaa_port()
+aaa_type()
+#
