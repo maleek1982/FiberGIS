@@ -130,6 +130,8 @@ psql %CON_DB% < "./schemas/gisetz/functions/aaa_st_name_propagation(integer, int
 
 
 @echo Start... Add new views to schema gisetz...
+psql %CON_DB% < "./schemas/gisetz/views/odf_box2.sql"
+psql %CON_DB% < "./schemas/gisetz/views/odf_vol.sql"
 
 @echo Start... Add new functions to schema gisetz_repository...
 
