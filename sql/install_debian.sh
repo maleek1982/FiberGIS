@@ -2,14 +2,14 @@
 #use "su - postgres" befor start
 
 echo Start... INIT DB
-DB=gis_2011
+DB=gis_2013
 PG_SHARE_PATH="/usr/share/postgresql/8.4/contrib"
 
 echo Start... Drop Database - $DB
 dropdb $DB
 
 echo Start... Create Database - $DB
-createdb $DB
+createdb -E UNICODE -T template0 $DB
 
 echo Start... Add new schemas, languages, postgis, uuid... on DB - $DB
 createlang plpgsql $DB
